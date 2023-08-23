@@ -1,0 +1,137 @@
+
+.container{
+    width: 100vw;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.inner-container{
+    width:clamp(300px,100%,1440px);
+    overflow: hidden;
+    /* border: 3px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.navbar{
+    height: 40px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.nav-heading {
+    width: 200px;
+    height: 35px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-heading-titles{
+    color: white;
+    background-color: rgba(0,86,210,255);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+.navbar-second{
+    height: 64px;
+    width: 90%;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+}
+.logo {
+    height: 32px;
+    width:200px;
+    font-size: large;
+    color: rgba(0,86,210,255);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.explore-dropdown{
+    width:92px;
+    height: 36px;
+}
+
+.explore-btn{
+    width:117px;
+    height: 36px;
+    background-color: rgba(0,86,210,255);
+    border: none;
+    border-radius: 4px;
+    
+}
+.explore-span{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    padding-left: 4px;
+    
+}
+.search-bar{
+    height:40px;
+    width: 453.5px;
+}
+
+.content-first {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* margin-left: 200px; */
+
+}
+
+.content {
+    /* width: 570px; */
+    height: 483px;
+    margin-left: 100px;
+    margin-right: 180px;
+    padding-top: 40px;
+    padding-bottom: 55px;
+}
+
+.heading {
+    
+    /* height:184px; */
+    color:#1F1F1F;
+    font-size: 84px;
+    font-family: Arial, sans-serif
+}
+
+.paragraph {
+    /* width: 570px; */
+    /* height: 84px; */
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.sign-butn {
+    height: 72px;
+    width: 238px;
+    margin-left: 5px;
+    background-color: #0056D2;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.sign-span{
+    width: 170px;
+    height: 28px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bolder;
+
+
+}
